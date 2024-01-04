@@ -1,0 +1,103 @@
+/* Floating button style */
+.floating-button-container {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  z-index: 1000; 
+}
+
+.floating-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-button:hover {
+  background-color: #0056b3;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Conversion Form Style */
+
+.conversion-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.conversion-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.conversion-form input, .conversion-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.conversion-form .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conversion-form button {
+  flex: 1;
+  margin-right: 10px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.conversion-form button:hover {
+  background-color: #2980b9;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.result div {
+  margin-bottom: 10px;
+}
+
+.add-to-map-button {
+  background-color: #2196F3; /* Warna biru */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

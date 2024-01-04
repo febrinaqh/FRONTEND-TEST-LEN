@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "canvas": "^2.11.2",
+    "jsdom": "^23.0.1"
+  },
+  "dependencies": {
+    "ol": "^8.2.0"
+  }
+}
